@@ -9,3 +9,5 @@ s.bind((host, port))
 
 s.listen(5)
 
+# 阻塞
+s.accept()
